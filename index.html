@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sujay Hazra — IT Engineer Portfolio Dashboard</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating Social -->
+<div class="social-bar">
+  <a href="mailto:sujay@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="tel:+919876543210" title="Call"><i class="fas fa-phone"></i></a>
+  <a href="https://linkedin.com/in/sujayhazra" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://github.com/sujayhazra" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+</div>
+
+<!-- Navigation -->
+<nav>
+  <a href="#summary">Summary</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+</nav>
+
+<!-- Main Dashboard Container -->
+<main class="container" id="pageRoot">
+
+  <!-- Header -->
+  <header>
+    <h1>Sujay Hazra</h1>
+    <div class="contact">
+      Email: <a href="mailto:sujay@example.com">sujay@example.com</a> |
+      Phone: <a href="tel:+919876543210">+91 98765 43210</a> |
+      Location: Kolkata, India
+    </div>
+  </header>
+
+  <!-- Professional Summary -->
+  <section id="summary" class="section">
+    <h2><i class="fas fa-user"></i> Professional Summary</h2>
+    <p>IT Engineer with 3+ years of experience in industrial automation, web dashboard development, PLC logic (CCW/RSLogix 500), FT Optix HMI, Python, SQL, and C#. Skilled in designing dynamic dashboards, automation solutions, and interactive project monitoring with a focus on efficiency and scalability.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-name">C# <span>90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:90%">90%</div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">SQL <span>88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:88%">88%</div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Python <span>85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:85%">85%</div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">PLC / Allen Bradley <span>82%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:82%">82%</div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Web Development <span>80%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%">80%</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2><i class="fas fa-briefcase"></i> Experience</h2>
+    <div class="timeline">
+
+      <!-- Automation Engineer -->
+      <div class="experience-card">
+        <div class="experience-head">
+          <div>
+            <div class="role">Automation Engineer|Software Developer</div>
+            <div class="company">ABC Industries</div>
+            <div class="period">Jan 2022 – Present</div>
+          </div>
+          <div class="experience-meta">
+            <span class="pill"><i class="fas fa-check"></i> PLC Programming</span>
+            <span class="pill"><i class="fas fa-check"></i> FT Optix HMI</span>
+            <span class="pill"><i class="fas fa-check"></i> Dashboard Development</span>
+            <span class="pill"><i class="fas fa-check"></i> SQL Reporting</span>
+            <span class="pill"><i class="fas fa-check"></i> Web Reporting</span>
+            <span class="pill"><i class="fas fa-check"></i> Python Scripts</span>
+            <span class="pill"><i class="fas fa-check"></i> Basic PLC Logic</span>
+            <span class="pill"><i class="fas fa-check"></i> HMI Dashboards</span>
+          </div>
+        </div>
+        <div class="experience-details">
+          <ul>
+            <li>Designed and implemented industrial dashboards using FT Optix HMI.</li>
+            <li>Developed PLC logic in CCW and RSLogix 500 for control systems.</li>
+            <li>Created real-time data acquisition pipelines using C# and SQL.</li>
+            <li>Built OEE and production monitoring dashboards for flaking, rotary ovens, and extruders.</li>
+            <li>Developed Excel and web-based reporting solutions for production & energy monitoring.</li>
+            <li>Automated data analysis and reporting using Python & SQL.</li>
+            <li>Enhanced web apps with responsive dashboards for industrial clients.</li>
+            <li>Learned Allen Bradley PLC programming (CCW & RSLogix 500).</li>
+            <li>Assisted in creating FT Optix HMI dashboards.</li>
+            <li>Participated in industrial automation project simulations.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-title">Energy Dashboard</div>
+        <div class="project-desc">Interactive web dashboard showing real-time energy metrics from industrial equipment using SQL & C# backend.</div>
+        <div class="tech-used">Tech: C#, SQL, JS, HTML/CSS</div>
+        <img src="images/energy-dashboard.PNG" alt="Energy Dashboard">
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">PLC Automation</div>
+        <div class="project-desc">Automated industrial process control and monitoring using Allen Bradley PLCs & FT Optix HMI dashboards.</div>
+        <div class="tech-used">Tech: PLC CCW, RSLogix 500, FT Optix</div>
+        <img src="images/plc-automation.jpg" alt="PLC Automation">
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Data Analytics Tool</div>
+        <div class="project-desc">Python & SQL-based analytics tool for processing large industrial datasets, generating actionable insights.</div>
+        <div class="tech-used">Tech: Python, SQL, Pandas, Matplotlib</div>
+        <img src="images/data-analytics.PNG" alt="Data Analytics">
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Web Reporting Dashboard</div>
+        <div class="project-desc">Developed interactive web reporting dashboards for production and energy monitoring, with Excel export functionality.</div>
+        <div class="tech-used">Tech: C#, ASP.NET, SQL, HTML/CSS</div>
+        <img src="images/web-reporting.PNG" alt="Web Reporting">
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">OEE Monitoring Dashboard</div>
+        <div class="project-desc">Created Overall Equipment Effectiveness dashboard showing production KPIs, uptime, and efficiency.</div>
+        <div class="tech-used">Tech: C#, SQL, JS, HMI Integration</div>
+        <img src="images/oee-dashboard.png" alt="OEE Dashboard">
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">FT Optix HMI Project</div>
+        <div class="project-desc">Developed human-machine interface dashboards for industrial machines with real-time monitoring and alarm system.</div>
+        <div class="tech-used">Tech: FT Optix, PLC Integration, C#</div>
+        <img src="images/ft-optix.PNG" alt="FT Optix Dashboard">
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">RSLogix 500 Logic Development</div>
+        <div class="project-desc">Created and tested basic PLC logic programs for production line control and motor automation.</div>
+        <div class="tech-used">Tech: RSLogix 500, Allen Bradley PLC</div>
+        <img src="images/rslogix.jpg" alt="RSLogix Project">
+      </div>
+
+    </div>
+
+    <!-- <div class="cta-row">
+      <button id="downloadBtn">Download CV</button>
+    </div> -->
+  </section>
+
+</main>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
